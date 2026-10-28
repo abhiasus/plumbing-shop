@@ -981,3 +981,32 @@ textarea {
     gap: 8px;
   }
 }
+.av-footer .av-brand,
+.av-footer .footer-av-brand {
+  justify-content: center;
+}
+
+.av-footer-description {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.av-footer h6 {
+  margin-bottom: 12px;
+}
+
+.av-footer .col-12 > a {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.av-footer .av-socials {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.av-footer .av-socials a {
+  display: inline-flex;
+  margin: 0;
+}

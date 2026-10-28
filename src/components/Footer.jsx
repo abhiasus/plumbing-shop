@@ -4,14 +4,14 @@ export default function Footer() {
   return (
     <footer className="av-footer">
       <div className="container">
-        <div className="row g-4">
-          <div className="col-md-5">
+        <div className="row g-4 text-center">
+          <div className="col-12">
             <Link to="/" className="av-brand footer-av-brand">
               <img
                 src={`${import.meta.env.BASE_URL}logo.png`}
                 alt="AQUAVERA"
                 className="av-logo-img"
-                />
+              />
 
               <span>
                 AQUAVERA
@@ -26,7 +26,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="col-6 col-md-3">
+          <div className="col-12">
             <h6>Discover</h6>
             <Link to="/">Home</Link>
             <Link to="/products">Products</Link>
@@ -35,7 +35,7 @@ export default function Footer() {
             <Link to="/cart">Shopping Bag</Link>
           </div>
 
-          <div className="col-6 col-md-4">
+          <div className="col-12">
             <h6>Visit &amp; Connect</h6>
 
             <p>
@@ -54,24 +54,15 @@ export default function Footer() {
             </p>
 
             <div className="av-socials">
-              <a
-                href="https://www.instagram.com/"
-                aria-label="Instagram"
-              >
+              <a href="https://www.instagram.com/" aria-label="Instagram">
                 <i className="bi bi-instagram" />
               </a>
 
-              <a
-                href="https://www.facebook.com/"
-                aria-label="Facebook"
-              >
+              <a href="https://www.facebook.com/" aria-label="Facebook">
                 <i className="bi bi-facebook" />
               </a>
 
-              <a
-                href="https://www.pinterest.com/"
-                aria-label="Pinterest"
-              >
+              <a href="https://www.pinterest.com/" aria-label="Pinterest">
                 <i className="bi bi-pinterest" />
               </a>
             </div>
