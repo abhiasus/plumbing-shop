@@ -18,9 +18,9 @@ export default function Navbar({ cartCount }) {
             onClick={closeMenu}
           >
             <img
-              src="/logo.png"
-              alt="AQUAVERA"
-              className="av-logo-img"
+                src={`${import.meta.env.BASE_URL}logo.png`}
+                alt="AQUAVERA"
+                className="av-logo-img"
             />
 
             <span>

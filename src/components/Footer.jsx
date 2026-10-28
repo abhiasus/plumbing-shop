@@ -8,10 +8,10 @@ export default function Footer() {
           <div className="col-md-5">
             <Link to="/" className="av-brand footer-av-brand">
               <img
-                src="/logo.png"
+                src={`${import.meta.env.BASE_URL}logo.png`}
                 alt="AQUAVERA"
                 className="av-logo-img"
-              />
+                />
 
               <span>
                 AQUAVERA
